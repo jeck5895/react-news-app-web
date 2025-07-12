@@ -4,5 +4,5 @@ type ButtonProps = {
   handleClick: () => {}
 }
 export default function Button(props: PropsWithChildren<ButtonProps>) {
-  return <button onClick={props.handleClick}>{props.children}</button>
+  return <button className="btn" onClick={props.handleClick}>{props.children}</button>
 }
