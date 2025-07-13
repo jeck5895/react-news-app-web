@@ -13,9 +13,11 @@ export default function Filters () {
     <div className="flex justify-center gap-1">
       <FilterCountry/>
       <FilterCategory/>
-      <FilterInput/>
       <FilterSource/>
-      <Button handleClick={()=> handleSearch}>Search</Button>
+      <FilterInput/>
+      <Button handleClick={()=> handleSearch}>
+        Search <i className="fas fa-search"></i>
+      </Button>
     </div>
   )
 }
