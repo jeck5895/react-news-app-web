@@ -7,10 +7,9 @@ export default function Navbar() {
         <h3 className="no-margin toggle">
           <i className="fas fa-toggle-off"></i>
         </h3>
-        <h3 className="no-margin">
-          <span className="mr-1 sm-hide">Bookmarks</span>
+        <h3 className="no-margin relative">
           <i className="fas fa-bookmark"></i>
-          <span className="badge">{3}</span>
+          <span className="badge px-1 rounded-full">{3}</span>
         </h3>
       </div>
     </header>
